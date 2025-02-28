@@ -15,12 +15,12 @@ let a=120 ; b=555;
     less = a<b;
     greater = a>b;
     lessthen = a<=b;
-    greaterthen = a>=b;
+    greaterthen = a >= b;
     a=20;
     b="20"
-    equal2 = a==b;
-    equal3= a===b;
-    notequal=a!=b;
+    equal2 = a == b;
+    equal3= a === b;
+    notequal= a != b;
 console.log(notequal);
 
 //use assignment operators

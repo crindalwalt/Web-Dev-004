@@ -25,10 +25,10 @@ console.log(str1+str2);
   let a = 67;
   let b = 10;
   lock = a > b;
-  lock = b<a;
-  lock = a<b;
-  lock = a<=b;
-  lock = a>=b;
+  lock = b < a;
+  lock = a < b;
+  lock = a <= b;
+  lock = a >= b;
   console.log(lock);
 
 
