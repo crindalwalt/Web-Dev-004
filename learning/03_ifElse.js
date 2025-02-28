@@ -41,7 +41,7 @@ console.log(trigger);
 
 if(trigger){
 
-    let totalMarks = prompt("Enter your total FSc Marks")
+    let totalMarks = prompt("Enter your  totsl FSc marks");
     let userMarks = prompt("Enter your FSc marks");
     // find percentage
     let percentage = (userMarks/totalMarks) * 100;

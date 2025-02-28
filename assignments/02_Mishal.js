@@ -25,18 +25,18 @@ console.log(str1+str2);
   let a = 67;
   let b = 10;
   lock = a > b;
-  lock = b < a;
-  lock = a < b;
-  lock = a <= b;
-  lock = a >= b;
+  lock = b<a;
+  lock = a<b;
+  lock = a<=b;
+  lock = a>=b;
   console.log(lock);
 
 
   let new1= 665;
   let new2= "676";
-  equality = new1 == new2;
+  equality = new1 == new2;  // loose checking
   equality = new1 !=new2;
-  equality = new1 === new2;
+  equality = new1 === new2;  // strict checking
   console.log(equality);
 
   // Assignment Operator
