@@ -10,7 +10,7 @@
  */
 let d = 50;
 let e = 20;
-* // Arithmatic operator [/,*,+,-,%, a++, ++a]
+// Arithmatic operator [/,*,+,-,%, a++, ++a]
 
 let social = d + e;
 social = d - e;
