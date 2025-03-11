@@ -62,18 +62,24 @@ let friendsNames = [
 // } while (index < friendsNames.length);
 
 // user se input lena
-let userInput = prompt("Enter a number for printing table except 0");
-userInput = parseInt(userInput);
 
-if (userInput <= 0) {
-  alert("Invalid input");
-}else{
-    let index = 1;
-    while(index <= 20){
-        // 2 x 1 = 2
-        // 2 x 2 = 4
-        let multiplication = userInput * index;
-        console.log(userInput + " X " + index + " = " + multiplication);
-        index++;
+let tableConfirmation = confirm("Do you want to print table? (yes/no)");
+if (tableConfirmation) {
+  let userInput = prompt("Enter a number"); // string value
+  userInput = parseInt(userInput); // convert string to number
+
+  let tableCount = prompt("Enter the number of tables you want to print");
+  tableCount = parseInt(tableCount);
+
+  if (userInput <= 0) {
+    console.error("Invalid values");
+  } else {
+    // printing userInput to the console
+    // loop lgana
+
+    for (let index = 1; index <= tableCount; index++) {
+      let tableLine = userInput + " X " + index + " = " + userInput * index;
+      console.log(tableLine);
     }
+  }
 }
