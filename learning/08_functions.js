@@ -56,5 +56,68 @@ function sum(n1, n2, n3, n4) {
 
 // greet();
 // sum(12, 23, 45, 67);
-createTable();
+// createTable();
 // greet();
+
+/**
+ * ***************************************************************************
+ * ************************  Arrow Function **********************************
+ * ***************************************************************************
+ */
+
+// function definition
+let greetingFriends = (name, age) => {
+  console.log(`Hello ${name} you have lived ${age} years of your life`);
+};
+
+let oneOfMyFriend = "Danial";
+
+// greetingFriends("Alina",27);
+// greetingFriends(oneOfMyFriend,29);
+
+// user details
+
+let userName = prompt("Enter your name");
+let matricTotalMarks = parseInt(
+  prompt("What are your total marks for Matric exam")
+);
+
+let matricObtainedMarks = parseInt(prompt("What was your obtained Marks"));
+
+// create a function to generate persentaage
+
+let getMatricPersentage = (totalMarks, obtainedMarks) => {
+  let persentage = (obtainedMarks / totalMarks) * 100;
+  persentage = Math.round(persentage);
+  return persentage;
+};
+
+let getGrades = (perc) => {
+  if (perc >= 90) {
+    console.log(`You have got A+ grade`);
+    return "A+";
+  } else if (perc >= 80 && perc < 90) {
+    console.log(`You have got  A grade`);
+    return "A";
+  } else if (perc >= 70 && perc < 80) {
+    console.log(`You have got  B grade`);
+    return "B";
+  } else if (perc >= 60 && perc < 70) {
+    console.log(`You have got  C grade`);
+    return "C";
+  } else if (perc < 60) {
+    console.log(`You have got  F grade`);
+    return "F";
+  } else {
+    console.log("invalid value");
+    return null;
+  }
+};
+
+
+
+let percentage = getMatricPersentage(1400, 1234);
+let grades = getGrades(percentage);
+console.log(grades);
+
+
