@@ -15,3 +15,8 @@
 
 ## Mishal
 [x] create a program to convert the number from hexadecimal to binary and return the value
+
+---
+
+## ALL
+[ ] Project: Create a multi-input sum,multiplication,subtraction,division calculator using function
