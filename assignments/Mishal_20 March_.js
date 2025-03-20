@@ -2,7 +2,7 @@
 
 //Create a multi-input sum,multiplication,subtraction,division calculator using function
 
-const calculate = () => {
+let calculate = () => {
     let con = confirm("Do you want to calculate a number?");
     
     if (con) {
