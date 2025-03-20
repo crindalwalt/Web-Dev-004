@@ -20,7 +20,7 @@ if(check){
     //   60 >= C
     //   55 >= D+
     //   45 >= D
-    //   30 >F
+    //   30 > F
 
       if(percentage >= 90){
         alert("you have  A+ Grade with the percentage of " +  percentage + "%" );
