@@ -1,0 +1,68 @@
+/*
+Ways to include css in html
+    1- inline css
+    2- internal css
+    3- external css
+
+Syntax
+    1- selector
+        * tag selector 
+            ( apply on all elements of same sort)
+        * id selector
+            ( unique id | using id attribute| must be used once, used by #)
+        * class selector 
+            ( create a class for similar design | used by . )
+        * group selector
+    2- property
+        background color
+        color
+        border-radius
+    3- value
+
+
+
+
+
+
+*/
+
+#heading {
+  background-color: brown;
+  color: burlywood;
+  padding: 1rem;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+#mainImage {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.big-font {
+  font-size: 40px;
+  
+}
+
+.big-font,.secondary-text,#mainImage {
+  color: black;
+}
+
+.btn-primary {
+  background-color: blue;
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #96b6d6;
+background-image: linear-gradient(62deg, #95b8db 0%, #d8c8e7 100%);
+
+}
