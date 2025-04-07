@@ -14,7 +14,7 @@ let sideLength = parseInt(prompt("Enter the Length"));
 let calculateSquare = (side) => {
   let area = side * side;
   let perimeter = 4 * side;
-  console.log(`Area is ${area},Perimeter is ${perimeter}`);
+  alert(`Area is ${area},Perimeter is ${perimeter}`);
   return {
     area: area,
     perimeter: perimeter,
@@ -22,4 +22,4 @@ let calculateSquare = (side) => {
 };
 
 let result = calculateSquare(sideLength);
-console.log("Result: ", result);
+alert("Result: ", result);

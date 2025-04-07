@@ -19,4 +19,4 @@
 ---
 
 ## ALL
-[ ] Project: Create a multi-input sum,multiplication,subtraction,division calculator using function
+[x] Project: Create a multi-input sum,multiplication,subtraction,division calculator using function
