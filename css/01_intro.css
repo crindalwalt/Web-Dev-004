@@ -31,15 +31,10 @@ Type
 
 */
 
-
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-
 }
 #heading {
   background-color: brown;
@@ -58,10 +53,11 @@ a {
 
 .big-font {
   font-size: 40px;
-  
 }
 
-.big-font,.secondary-text,#mainImage {
+.big-font,
+.secondary-text,
+#mainImage {
   color: black;
 }
 
@@ -74,7 +70,7 @@ a {
   border-radius: 0.5rem;
 }
 
-.container{
+.container {
   /* background-color: aquamarine;
    padding: 1rem .5rem; 
   padding-top: 30px;
@@ -84,7 +80,7 @@ a {
   padding: 1rem;
   padding: 10px 23px 15px 45px; */
 }
-.box{
+.box {
   /* color: darkmagenta;
   background-color: plum; */
   /* width: 100px; */
@@ -103,12 +99,7 @@ a {
   border-bottom-right-radius: 60px;
   border-top-right-radius: 1px;
   border: 12px solid red; */
-
-
- 
-
 }
-
 
 .container {
   background-color: blueviolet;
@@ -116,15 +107,13 @@ a {
 
   height: 100vh;
 }
-.box{
+.box {
   display: inline-block;
   width: 100px;
   height: 100px;
   background-color: rgb(204, 241, 204);
-  padding: .5rem;
-  margin: .3rem;
+  padding: 0.5rem;
+  margin: 0.3rem;
   border: 3px solid gray;
-  border-radius: .5rem;
-
-
+  border-radius: 0.5rem;
 }

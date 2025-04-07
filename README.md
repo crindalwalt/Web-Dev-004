@@ -20,3 +20,9 @@
 
 ## ALL
 [x] Project: Create a multi-input sum,multiplication,subtraction,division calculator using function
+
+
+---
+## 7 April 2025 (ALL)
+[ ] layout wifeframing: pick a category of websites like ecommerce, blog, directories, portfolios, lms etc and design at least 5 pages on paper.
+
