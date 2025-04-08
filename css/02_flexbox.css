@@ -22,12 +22,27 @@
     align-items: start;
     align-items: center;
     align-items: end;
+    /* for flexbox direction */
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    /* for wrapping */
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    
 
 
 
     /* spont code */
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+
+    /* flex-direction: column; */
+
+
 }
 
 .box{

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #navbar {
+            padding: 1rem;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navlist{
+            display: flex;
+
+        }
+        .navlist li{
+            list-style: none;
+            /* background-color: red; */
+            padding: .5rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <h1>Onuvia Inc.</h1>
+        <ul class="navlist">
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+            <li>Services</li>
+        </ul>
+    </div>
+</body>
+</html>
