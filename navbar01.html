@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
+        * {
+            margin: 0px;
+            padding: 0px;
             box-sizing: border-box;
         }
 
         #navbar {
-            padding: 1rem;
-            background-color: aquamarine;
+            background-color: plum;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 0.5rem;
+            border-radius: .5rem;
+            margin: .4rem;
         }
 
-        .navlist{
+        .navlist {
             display: flex;
+        }
+
+        .navlist li {
+            list-style: none;
+            padding: 1rem;
+            margin: .2rem;
+            border-radius: .5rem;
+        }
+
+        .navlist li:hover {
+            background-color: rgba(55, 57, 59, 0.363);
+            color: white;
 
         }
-        .navlist li{
-            list-style: none;
-            /* background-color: red; */
-            padding: .5rem;
-            cursor: pointer;
+
+        .navlist li a:hover {
+            color: white;
+        }
+
+        .navlist li:active {
+            background-color: antiquewhite;
+        }
+
+        .navlist li a {
+            color: black;
+            text-decoration: none;
         }
     </style>
 </head>
+
 <body>
     <div id="navbar">
-        <h1>Onuvia Inc.</h1>
+        <div>
+            <img src="" alt="">
+            <h1>Onuvia Inc.</h1>
+        </div>
         <ul class="navlist">
-            <li>Home</li>
-            <li>About</li>
-            <li>contact</li>
-            <li>Services</li>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
         </ul>
     </div>
 </body>
+
 </html>
