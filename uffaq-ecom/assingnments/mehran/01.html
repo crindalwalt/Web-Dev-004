@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #navbar{
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+            margin: .3rem;
+            border-radius: .5rem;
+        }
+        .navlist{
+            display: flex;
+        }
+        .navlist li{
+            list-style: none;
+            padding: .5rem;
+            margin: .4rem;
+            border-radius: .3rem;
+        }
+        .navlist li:hover{
+            background-color: white;
+        }
+        .navlist li a{
+            text-decoration: none;
+            color: black;
+        }
+        .navlist li a:hover{
+            color: black;
+        }
+        .nothing{
+            display:flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+       <div class="nothing">
+        <h1>Shopify</h1>
+       </div>
+        <ul class="navlist">
+            <li>
+                <a href=".">Home</a>
+            </li>
+            <li>
+                <a href=".">All Products</a>
+            </li>
+            <li>
+                <a href=".">About</a>
+            </li>
+            <li>
+                <a href=".">Order</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
