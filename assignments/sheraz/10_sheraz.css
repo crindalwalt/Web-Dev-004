@@ -3,17 +3,20 @@
     padding: 0px;
     box-sizing: 0px;
 }
-body{
+/* body{
     background-color: rgba(6, 243, 85, 0.795);
-}
+} */
+ /*  ===========================================================================================================
+                     ============================= Navbar section  Start ================================
+    ===========================================================================================================               */
 #navbar {
-    background-color: rgb(167 134 134);
+    background-color: rgb(223 207 207);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 15px;
-    margin: 6px;
-    padding: 6px;
+    /* border-radius: 15px;
+     margin: 6px;
+    padding: 6px; */ 
 }
 
 #navbranding {
@@ -25,6 +28,7 @@ color: rgb(0, 0, 0);
 #navbranding  img {
     width: 70px;
     height: 70px;
+    margin-right: 10px;
 
 }
 
@@ -36,13 +40,15 @@ color: rgb(0, 0, 0);
 }
 .navul li {
     list-style: none;
+    display: flex; 
+    align-items: center;
     
 }
 .navul li :hover {
-    background-color: black;
-    color: wheat;
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 81, 164);
     font-weight: bold;
-    border-radius: 10px;
+    border-bottom: 2px solid black;
 }
 .navul li a:active {
     color: red;
@@ -55,3 +61,56 @@ color: rgb(0, 0, 0);
     padding-left: 10px;
    cursor:pointer;
 }
+.navul li img {
+    padding: 8px;
+}
+/*  ===========================================================================================================
+                     ============================= Navbar section  End ================================
+    ===========================================================================================================     
+    */
+
+    /*  ===========================================================================================================
+                     ============================= Hero Section section  Start ================================
+    ===========================================================================================================     
+    */
+
+    #hero-section {
+background-image: url("pics/amazon-mobile.jpg");
+background-size: cover;
+
+padding:10px;
+width: 100%;
+height: 70vh;
+background-color:   rgb(234, 240, 240);
+
+    }
+    #hero-section .hero-heading {
+        font-size: 42px;
+        padding: 10px;
+        color: rgb(0 0 0);
+    }
+    .hero-heading-availble{
+        color:#fb0827;
+    }
+    .hero-section-p{
+        padding: 20px;
+font-size: 20px;
+color: rgb(20 10 19);
+
+    }
+    #hero-section .hero-cta {
+        font-size: 15px;
+        border: none;
+        border-radius: 10px;
+        padding: 13px;
+        margin: 10px;
+        background-color: rgb(235 233 233);
+        color: rgb(239 6 6);
+        font-weight: bold;
+        
+        
+    }
+    .hero-cta:hover{
+        box-shadow: 8px 8px rgba(194, 187, 187, 0.6)
+
+    }
