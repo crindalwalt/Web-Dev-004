@@ -3,15 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+/* ============================= */
+/* Navbar */
+/* ============================= */
 #navbar {
     background-color: plum;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    border-radius: .5rem;
-    margin: .4rem;
+    /* border-radius: .5rem;
+    margin: .4rem; */
 }
 
 .navlist {
@@ -22,12 +24,18 @@
     list-style: none;
     padding: 1rem;
     margin: .2rem;
-    border-radius: .5rem;
+    /* border-radius: .5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navlist li:hover {
-    background-color: rgba(55, 57, 59, 0.363);
-    color: white;
+    /* background-color: rgba(55, 57, 59, 0.363); */
+    /* color: white; */
+
+    border-bottom: 1px solid black;
+
 
 }
 
@@ -37,6 +45,7 @@
 
 .navlist li:active {
     background-color: antiquewhite;
+
 }
 
 .navlist li a {
@@ -54,4 +63,52 @@
 .branding img{
     width: 50px;
     height: 50px;
+}
+
+/* ============================= */
+/* Hero Section */
+/* ============================= */
+
+
+#hero-section{
+    background-color: gainsboro;
+    width: 100%;
+    height: 70vh;
+    padding: 1rem;
+    background-image: url(../assets/images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.hero-heading,.hero-excerpt,.hero-cta{
+    margin: 2rem 1rem;
+}
+
+.hero-heading{
+    font-size: 65px;
+}
+
+.hero-excerpt{
+    font-size: x-large;
+    color: rgb(146, 146, 146);
+}
+
+.hero-cta {
+    padding: 1rem;
+    background-color: plum;
+    border: none;
+    border-radius: .5rem;
+    font-size: larger;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.hero-cta:hover{
+    box-shadow: 10px 10px 10px  rgb(102, 102, 102);
+}
+
+.c-prime{
+    color: plum;
 }
