@@ -17,6 +17,7 @@
     /* border-radius: 15px;
      margin: 6px;
     padding: 6px; */ 
+    
 }
 
 #navbranding {
@@ -74,43 +75,74 @@ color: rgb(0, 0, 0);
     ===========================================================================================================     
     */
 
-    #hero-section {
-background-image: url("pics/amazon-mobile.jpg");
+#hero-section {
+    width: 100vw;
+    height: 70vh;
+    /* background-color: palegoldenrod; */
+    padding: 15px 20px;
+    background-image:url(pics/amazon-mobile.jpg);
 background-size: cover;
 
-padding:10px;
-width: 100%;
-height: 70vh;
-background-color:   rgb(234, 240, 240);
+}
+.hero-heading_P{
+width: 50%;
+height: 20vh;
+/* background-color: aliceblue; */
+padding: 20px;
+}
+.hero-heading{
+    /* padding-top: 20px; */
+    padding-bottom:20px ;
+    font-size:35px;
+}
+.hero-section-p{
+    font-size: larger;
+    padding-top: 8px;
+}
+#hero-social-icon{
+    width: 100px;
+    height: 100px;
+    
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.hero-social-all {
+    background-color: rgb(255, 252, 252);
+    border-radius: 15%;
+    margin-right: 10px;
+    margin-top: 10px;
 
-    }
-    #hero-section .hero-heading {
-        font-size: 42px;
-        padding: 10px;
-        color: rgb(0 0 0);
-    }
-    .hero-heading-availble{
-        color:#fb0827;
-    }
-    .hero-section-p{
-        padding: 20px;
-font-size: 20px;
-color: rgb(20 10 19);
+}
 
-    }
-    #hero-section .hero-cta {
-        font-size: 15px;
-        border: none;
-        border-radius: 10px;
-        padding: 13px;
-        margin: 10px;
-        background-color: rgb(235 233 233);
-        color: rgb(239 6 6);
-        font-weight: bold;
-        
-        
-    }
-    .hero-cta:hover{
-        box-shadow: 8px 8px rgba(194, 187, 187, 0.6)
+.hero-btn{
+    display: flex;
+   padding-right: 15px;
+   margin-top: 20px;
+   font-size: larger;
+}
+#hero-prime-cta{
+    padding: 8px;
+    margin-right: 10px;
+    font-size: large;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(18 18 18);
+    color: white;
+}
+#hero-secondary-cta{
+    padding: 8px;
+    margin-right: 10px;
+    font-size: large;
+    border-style: none;
+    border-radius: 8px;  
 
-    }
+}
+  #hero-prime-cta:hover, #hero-secondary-cta:hover {
+    box-shadow: 5px 5px 2px rgba(154, 156, 154, 0.8);
+    font-size: 19px;
+    border-radius:8px;
+    background-color: rgb(241, 162, 14);
+}
