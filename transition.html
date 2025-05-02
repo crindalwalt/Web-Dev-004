@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <!-- internal css -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .container{
+            background-color: rgb(169, 169, 169);
+            height: 100vh; /* view height */
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+        .box{
+            --box-side : 200px;
+            width: var(--box-side);
+            height: var(--box-side);
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            border-radius: .5rem;
+            cursor: pointer;
+            transition: all .3s ease;
+
+        }
+
+        .box:hover{
+            /* transform: scale(1.2); */
+            transform: scale(2) ;
+            transform: rotate(360deg);
+            transform: translateX(-100px);
+            transform: translateY(-100px);
+            transform: translate(100px,100px);
+            transform: skew(20deg);
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="box">
+            box 
+        </div>
+    </div>
+</body>
+</html>

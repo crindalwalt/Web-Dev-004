@@ -217,6 +217,7 @@
   border-radius: .4rem;
   color: #333333;
   border: 1px solid transparent;
+  position: relative;
 }
 .product-card:hover{
   /* box-shadow: 3px 3px 10px grey; */
@@ -263,4 +264,30 @@
 
 .pc-stock svg{
   color: green;
+}
+
+.pc-sale{
+  --side-width: 70px;
+  width: var(--side-width);
+  height: var(--side-width);
+  background-color: rgb(199, 30, 100);
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  color : white;
+
+
+
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+
+}
+
+.pc-sale:hover{
+  box-shadow: 3px 3px 10px grey;
 }
