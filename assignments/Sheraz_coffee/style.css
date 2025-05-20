@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* <!-- *******************************************************************  Header- Section Start **********************************************--> */
+.header-section {
+    height: 50px;
+    background: #3f271e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.hd-date{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.hd-date i {
+    padding-right: 10px;
+}
+.hd-social-icon {
+    margin-right: 100px;
+
+}
+.hd-social-icon .fa-brands {
+    padding: 0.7rem;
+     cursor: pointer;
+     font-size: large;
+}
+
+/* /* <!-- *******************************************************************  Header- Section End **********************************************-->
+
+
+ <!-- *******************************************************************  Hero- Section Start **********************************************--> */
+ .hero-section {
+    height: auto;
+    width: 100vw;
+    background-image: url(pics/slider_bg_people.png);
+    background-size: cover;
+ }
+/* <!--*************************
+        Navbar- Section Start ********************-->   */ 
+
+.navbar {
+    height: 80px;
+    width: 100vw;
+    background: #090909ba;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+.navbar-logo img {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.navul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+.navul li {
+    list-style: none;
+    margin-left:15px;
+    
+}
+.navul li a {
+    font: 15px Roboto, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.nav-btn {
+    background: #6f3727 ;
+    padding: 20px 30px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+
+ /* <!-- *******************************************************************  Navbar- Section End **********************************************-->  */
+
+
+ /* <!-- 
+ ***********************************************************  Heading - Section Start **********************************************-->  */
+ .hero-heading {
+    width: 600px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    
+ }
+ .hero-h3{
+    color: #ffffff;
+    font: 22px Caudex, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 25px;
+
+ }
+ .hero-h1 {
+    color: #ffffff;
+    font: 80px Caudex, sans-serif;
+   font-weight: bold;
+   
+ }
+ .hero-p{
+    color: #ffffffB0;
+    margin: 0px 0px 25px;
+    font: 18px Roboto, sans-serif;
+ }
+ .hero-button {
+    display: flex;
+    margin-bottom:  25px;
+
+ }
+ .hero-btn1 {
+    background: #6f3727 ;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+ .hero-btn1:hover {
+    background-color: #814231;
+ }
+ .hero-btn2 {
+    background: white ;
+    padding: 15px 20px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
