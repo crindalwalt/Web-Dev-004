@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: gainsboro;
+  padding: 0.4rem;
+  display: flex;
+  position:sticky;
+    top: 0;
+}
+
+.box {
+  background-color: wheat;
+  margin: 0.5rem;
+  padding: .4rem;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+  z-index: 100;
+
+
+}
+
+#box-1{
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+    border: 1px solid purple;
+    z-index: -10000;
+}
